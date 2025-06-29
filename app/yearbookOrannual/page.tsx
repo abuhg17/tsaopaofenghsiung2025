@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+export const runtime = "edge";
 
 export default function YearbookOrannualPage() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -8,14 +9,19 @@ export default function YearbookOrannualPage() {
   const toggleTooltip = (index: number) => {
     setActiveIndex((prev) => (prev === index ? null : index));
   };
-  export const runtime = 'edge';
 
   const tooltips = [
     { text: "學生數: 33", tip: "33歲，2021年" },
     { text: "班級人數: 5、12、18、23", tip: "" },
     { text: "5 12", tip: "委任第五職等／簡任第十二職等" },
-    { text: "12 18", tip: "臺北市第12屆市長／臺北市議會第18屆議員選舉選舉公報" },
-    { text: "18 23", tip: "第18屆立法委員選舉選舉公報／第23任總統副總統選舉選舉公報" },
+    {
+      text: "12 18",
+      tip: "臺北市第12屆市長／臺北市議會第18屆議員選舉選舉公報",
+    },
+    {
+      text: "18 23",
+      tip: "第18屆立法委員選舉選舉公報／第23任總統副總統選舉選舉公報",
+    },
     { text: "5 23", tip: "女，5班23號／國中補習班同學" },
     { text: "座號和", tip: "男，1號／女，32號／國中同班同學" },
   ];
