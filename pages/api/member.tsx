@@ -1,6 +1,8 @@
 // 引入 Next.js 的 API Request/Response 型別
 import type { NextApiRequest, NextApiResponse } from "next";
 
+export const runtime = "edge";
+
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const member = [
     {

@@ -1,5 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
+export const runtime = 'edge';
+
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { name } = req.query;
 
