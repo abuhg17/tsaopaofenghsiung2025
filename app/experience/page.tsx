@@ -29,11 +29,23 @@ export default function ExperiencePage() {
           />
           <div className="flex flex-col">
             <p className="text-md">高考三級資訊處理榜首</p>
-            <p className="text-small text-default-500">2025</p>
+            <p className="text-small text-default-500">2025年，37歲</p>
           </div>
         </CardHeader>
         <Divider />
         <CardBody>
+          <a
+            href="https://wrn5xhmwg3rulhoy.public.blob.vercel-storage.com/114080_02_202_2085_27720090%2011408049116215016157_ExamNotice-Qk2iL4eAko5n2Zy9JIPNOxl4mfJQLK.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          >
+            考試通知書
+          </a>
+          <p> 成績通知/尚未岀爐</p>
+          <p>典試委員會榜單/尚未岀爐</p>
+          <p>考試院公報/尚未岀爐</p>
+          <p>榜示通知函/尚未岀爐</p>
           <p>管理師</p>
           <p>2025年高考三級因颱風之故順延一天?</p>
           <p>2025年高普考因地震之故延後榜示?農曆(相當於11/06)</p>
@@ -57,7 +69,7 @@ export default function ExperiencePage() {
           />
           <div className="flex flex-col">
             <p className="text-md">熱門人選</p>
-            <p className="text-small text-default-500">2034~2038</p>
+            <p className="text-small text-default-500">2034年至2038年</p>
           </div>
         </CardHeader>
         <Divider />
@@ -86,7 +98,7 @@ export default function ExperiencePage() {
           />
           <div className="flex flex-col">
             <p className="text-md">臺北市長(候選人)</p>
-            <p className="text-small text-default-500">2038</p>
+            <p className="text-small text-default-500">2038年，50歲</p>
           </div>
         </CardHeader>
         <Divider />
